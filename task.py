@@ -140,8 +140,6 @@ if __name__ == "__main__":
     )
     conn.commit()
 
-# Example usage:
-# directory_to_scan = "C:/Users/WSI/Downloads/task 1/IAS - NGP/"
 scan_directory_and_insert_into_db(directory_to_scan)
 
 # Close the database connection
